@@ -1,36 +1,176 @@
 # AtliQ Presence Insights - Power BI Dashboard
 
-The AtliQ Presence Insights dashboard provides a comprehensive analysis of employee attendance data collected over three months (April, May, and June 2022). The goal of this project is to help the HR team understand workforce presence patterns, identify attendance issues early, and improve overall employee productivity.
+AtliQ Presence Insights – HR Analytics Dashboard (Power BI)
 
-Using Power BI, the raw attendance logs were cleaned, combined, and transformed into an interactive dashboard that highlights key performance indicators such as overall attendance percentage, work-from-home (WFH) trends, and sick leave (SL) rates.
-
-Key Highlights :-
-
-Overall Attendance Rate: ~94%
-
-Work From Home (WFH): ~9.1%
-
-Sick Leave (SL): ~0.4%
-
-Clear month-wise, week-wise, and day-wise trends
-
-Employee-level insights on Present Days, WFH Days, and SL Days
+The AtliQ Presence Insights Dashboard provides a comprehensive analysis of employee attendance trends for the months of April, May, and June.
+This project helps HR teams understand workforce availability, identify patterns in attendance, and make data-driven decisions to improve employee productivity and discipline.
 
 
-Purpose of the Dashboard:-
 
-This project helps HR:
+
+ Project Overview:-
+
+This dashboard transforms raw attendance sheets into meaningful insights using Power Query, Power BI, and interactive visualizations.
+The solution automates data preparation, highlights essential workforce KPIs, and allows HR to explore attendance patterns through monthly, weekly, and day-wise comparisons.
+
+
+
+
+ Objectives of the Dashboard:-
+
+The project is designed to help HR:
 
 Monitor attendance performance across months
 
-Detect unusual spikes in absence or WFH
+Track Present, WFH, and Sick Leave patterns
 
-Understand workforce discipline and availability
+Identify unusual spikes or drops in attendance
 
-Analyze behaviour patterns for better planning
+Understand employee-level behavior and consistency
 
-Make informed, data-driven decisions
+Improve planning and workforce allocation
+
+Enable informed decision-making with data-driven insights
 
 
-This dashboard transforms HR attendance sheets into meaningful insights that enhance visibility and support effective workforce management.
+
+ Key Metrics (KPIs):-
+
+Overall Attendance Rate: 94%
+
+Work From Home (WFH): 9.1%
+
+Sick Leave (SL): 0.4%
+
+Total Employees: 125
+
+
+These KPIs offer a quick snapshot of workforce presence and help HR monitor overall attendance efficiency.
+
+
+
+
+Dashboard Visuals & Insights:-
+
+The dashboard includes a wide range of visuals to simplify attendance analysis:
+
+1. KPI Cards
+
+Display high-level metrics:
+
+Attendance %
+
+WFH %
+
+Sick Leave %
+
+
+2. Trend Line Charts
+
+Show day-wise and week-wise attendance, helping HR identify:
+
+Rising or falling presence trends
+
+Fluctuations in WFH behavior
+
+Weekly discipline patterns
+
+
+3. Monthly Attendance Comparison
+
+Compare employee presence across April, May, and June, highlighting consistency and seasonal changes.
+
+4. Bar Charts (Employee-Level Analysis)
+
+Breakdowns for each employee:
+
+Present Days
+
+WFH Days
+
+Sick Leave Days
+
+
+Helps HR spot:
+
+High or low performers
+
+Repeated leave patterns
+
+Persistent WFH usage
+
+
+5. Filters & Slicers
+
+User-friendly filters allow HR to drill down by:
+
+Month
+
+Attendance Type
+
+Employee
+
+Day of the week
+
+
+
+
+
+Technical Approach:-
+
+1. Data Cleaning & Preparation (Power Query)
+
+Standardized raw attendance sheets for 3 months
+
+Implemented reusable templates
+
+Used parameters and custom functions for automation
+
+Ensured consistent formatting across all datasets
+
+
+2. Data Modeling
+
+Connected cleaned tables into Power BI
+
+Created logical relationships for downstream analysis
+
+
+3. Dashboard Development
+
+Designed KPI cards, charts, and interactive visuals
+
+Used bookmarks and slicers for easy navigation
+
+Crafted clean UI for enhanced readability
+
+
+
+Project Files Included:-
+
+Raw Attendance Data (April–June 2022)
+
+Power BI Dashboard (.pbix file)
+
+README Documentation
+
+Screenshots of Dashboard Visuals
+
+
+
+
+
+Project Link:-
+
+View Project:
+https://github.com/Deepikabyrraju/AtliQ-Presence-Insights---Power-BI
+
+
+
+
+Conclusion:-
+
+The AtliQ Presence Insights Dashboard delivers powerful workforce analytics using interactive visuals and automated data processes.
+It helps HR teams make informed decisions by identifying trends, irregularities, and employee-level attendance behavior—improving workforce planning and operational efficiency.
+
 
